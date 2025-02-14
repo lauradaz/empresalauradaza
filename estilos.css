@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Poppins';
     margin:0;
@@ -172,4 +173,248 @@ span {
 
 .owl-nav {
     text-align: center;
+}
+
+.menu p {
+    font-size: 18px;
+    color: #6a393d;
+    background: #bcc1c9;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
+    color: #6a393d;
+    background: #bcc1c9;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    
+}
+
+ a {
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    background: #89605b;
+    color:#dbb5a1;
+    padding: 20px 30px 20px 30px;
+    font-weight: bold;
+   
+   
+}
+
+.titular {
+    text-align: center;
+    margin-top: 200px;
+    
+
+}
+
+h1{
+    font-size: 60px;
+    margin:0;
+    color: #6a393d;
+    background: #bcc1c9;
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+   
+    
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom:40px;
+    background: #bcc1c9;
+    color: #4e616c;
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+    
+}
+
+header {
+    background: url(livingroom.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width:90%;
+    margin:auto;
+}
+
+/*EMPIEZA SECCIÓN SOBRE MÍ*/
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    color: #9d955c;
+}
+
+.contenedor-sobremi {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-parrafo-y-boton {
+    width:42%;
+  
+}
+
+.contenedor-parrafo-y-boton p {
+    font-size: 18px;
+    color: #7a3937;
+    
+}
+
+
+
+
+
+.parrafo-final {
+    margin-bottom: 30px;
+}
+
+.contenedor-sobremi img {
+    border-radius: 10px;
+}
+
+.contenedor-servicios {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.servicio {
+    width:23%;
+    color:white;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.verde {
+    background: #7f7b32;
+}
+
+.gris {
+    background:#9ca2a6;
+}
+
+.servicio img {
+    float:right;
+}
+
+.servicio h4 {
+    margin:0;
+}
+
+.servicio p {
+    font-size: 18px;
+    height: 200px;
+}
+
+span {
+    font-size: 80px;
+    color: #783936;
+}
+
+.owl-nav {
+    text-align: center;
+
+}
+
+.contenedor-porque {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-porque h4 {
+    margin:0;
+    font-size: 20px;
+    color: #89605b;
+    
+}
+
+.contenedor-porque p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #89605b;
+}
+
+.porque-singular {
+    width: 28%;
+}
+
+#blog {
+    background: #F9FAFC;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.contenedor-publicaciones {
+    display:flex;
+    justify-content: space-around;
+}
+
+.publicacion {
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom:20px;
+}
+
+#blog img {
+    width: 100%;
+}
+
+#blog h4 {
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;
+    color: #89605b;
+}
+
+#blog p {
+    color: #5A6169;     
+    line-height: 24px;
+    font-size: 16px;
+    padding:10px 20px 20px 20px;
+    margin:0;
+}
+
+#blog a {
+    display: inline-block;
+    margin-left:20px;
+
+}
+
+.publicacion-segunda img {
+    height:265px;
+}
+
+.primer-parrafo {
+    padding: 0 20px 20px 20px !important; 
 }
